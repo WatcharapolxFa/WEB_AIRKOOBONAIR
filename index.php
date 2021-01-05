@@ -15,44 +15,30 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
-    <body style="background-color: #727272;">
+    <body style="background-color: #727272;   font-family:Caveat">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <a class="navbar-brand" href="index.html">
                 <img src="bg/bg1.png" width="50px">
             </a>
             <div class="collapse navbar-collapse container-fluid">
             <ul class="navbar-nav">
+            &nbsp;&nbsp;
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">แอร์บ้านราคาโปรโมชั่น</a>
-                </li>
+                    <a class="nav-link" href="index.html">สินค้าราคาโปรโมชั่น</a>
+                </li>&nbsp;&nbsp;
                 <li class="nav-item">
-                    <a class="nav-link" href="member.html">สินค้าของเรา</a>
-                </li>
+                    <a class="nav-link" href="member.html">สินค้าทั้งหมดของเรา</a>
+                </li>&nbsp;&nbsp;
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">แอร์ผ่อน 0 %</a>
+                    <a class="nav-link" href="gallery.html">สินค้าผ่อน 0 %</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">บริการของเรา</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">ช่องทางการติดต่อ</a>
                 </li>
-                <li class="nav-item dropdown" >
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      บริการของเรา
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown" >
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      ติดต่อเรา
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
+                
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="ระบุรุ่นที่ท่านต้องการ" aria-label="Search">
@@ -78,21 +64,22 @@
                    <div class="card">
                        <div class="card-header ">
                         
-                            <strong style="font-size: 18px; ">
-                                แอร์มิตซูบิชิอีเล็คทริค Mr.SLIM
-                                
+                            <strong style="font-size: 24px; " >
+                               DAIKIN 
                             </strong>
+                            <br>
+                            <br>
                             <img src="bg/1234.jpg" alt="" class="img-responsive">
                        </div>
                        <div class="card-body">
                             <table class="table table-hover"> 
-                                <thead class="text-white" style="background-color: blueviolet;"> 
+                                <thead class="text-white" style="background-color: #21B699;"> 
                                     <th>รุ่น</th>
                                     <th>BTU</th> 
                                     <th>ราคาส่ง</th>  
 
                                 </thead>
-                                <tbody style="background-color: rgb(154, 183, 236);">
+                                <tbody style="background-color :rgb(154, 183, 236);">
                                     <td>MSY-KS09VF#5</td>
                                     <td>8900</td>
                                     <td>10,900.-</td>
