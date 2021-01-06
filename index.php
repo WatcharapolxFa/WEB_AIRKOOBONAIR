@@ -45,11 +45,7 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ค้นหา</button>&nbsp;&nbsp;
                 <a href="login.php" class="btn btn-warning text-white"> เข้าสู่ระบบ</a>
             </form>
-           
-                
-            
-       
-            </div>
+        </div>
         </nav>
         <div class="container">
             <br>
