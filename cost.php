@@ -15,11 +15,7 @@
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- <script src="js/bootstrap.js"></script>
- <script src="js/bootstrap.min.js"></script>
+ 
  <title>AIR_SHOP</title>
  
  <style type="text/css">
@@ -102,39 +98,45 @@
       </div>
     </div>
     <br>
+
   <div class="row card">
    <div class="card-header bg-dark text-warning">
     <br>
-    <strong><h5>AIR HUB TECHNONOGY SOLUTION COMPANY LIMITED</h5></strong>
+    <strong><h5>ค่าติดตั้ง แอร์ "ติดผนัง" แบบ มาตรฐาน (Wall type air)</h5></strong>
    </div>
-     <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">    
-      <strong><h6>ADDRESS :</h6></strong> <br>
-    <a >111/12 Donlee Village, Samo Subdistrick, Prangku Districk, Sisaket Province, Thailand 33170</a><br><br>
-    <a>Tel : 0842398684, 0839849056 (24 Hr.)</a><br><br>
-    <a>Email : Asarawoot114@gmail.com</a><br><br>
-    <a>FOLLOW US :</a><br><br>
+     <div class="card-header bg-dark text-white" style="letter-spacing: 2px;"> 
+     <table class="table table-hover bg-waring text-dark">
+     
+     </table>
+    <table class="row">
+     <div class="col-md-6" >
+      <img src="bg/bg_pay1.png" class="response" >
+     </div>
+     <div class="col-md-6" >
+      <img src="bg/bg_pay2.png" class="response" >
+     </div>
+     
+    </table>
+    <br>
+
     <div class="row">
-     <!-- facebook    -->
-     <div class="col-md-1" style="padding: 0">
-      <img src="bg/contactFace.png" class="response" style="padding-left: 60px; padding-top: 7px">
+     <div class="col-md-6" >
+      <img src="bg/bg_pay3.png" class="response" >
      </div>
-     <div class="col-md-3">
-      <a href="https://web.facebook.com/profile.php?id=100006211907417" target="_blank"><strong>AIR HUB TECHNONOGY</strong></a><br>
-      <a>on Facebook</a>
+     <div class="col-md-6" >
+      <img src="bg/bg_pay4.png" class="response" >
      </div>
-     <!-- line    -->
-     <div class="col-md-1" style="padding: 0">
-      <img src="bg/contactLine.png" class="response" style="padding-left: 60px; padding-top: 7px">
-     </div>
-     <div class="col-md-7">
-      <a href="" target="_blank"><strong>ID : @0984201968poop</strong></a><br>
-      <a>on Line</a>
-     </div>
-    </div><br>
-    <a><strong>SERVICES :</strong></a><br><br>
+     
+    </div>
+    <br>
+    
+    <a ><li>ค่าบริการ ถอดแอร์ 300 - 800 บาท ล้างใหญ่ 500 บาท สอบถามรายละเอียดเพิ่มเติมได้ทุกวันเวลาทำการ 
+อัตราค่าบริการอาจเปลี่ยนแปลงไปตามพื้นที่บริการ กรุณาสอบถามกับฝ่ายขายที่ท่านติดต่ออยู่ ขอบคุณค่ะ</li></a><br>
+    
+<!--    <a><strong>SERVICES :</strong></a><br><br>-->
     <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
     <br><br><br><br>
-    <br><br>
+    
    </div>
 
   </div>
@@ -149,5 +151,10 @@
             </div>
         </div>
  
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.js"></script>
+ <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

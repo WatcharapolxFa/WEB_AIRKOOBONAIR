@@ -15,11 +15,7 @@
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- <script src="js/bootstrap.js"></script>
- <script src="js/bootstrap.min.js"></script>
+ 
  <title>AIR_SHOP</title>
  
  <style type="text/css">
@@ -34,109 +30,111 @@
  
 </style>
 <body>
- <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     <a class="navbar-brand" href="index.php">
-   <img src="img/logo.png" width="150px">
-  </a>
+      <img src="bg/bg1.png" width="50px">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-   <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-   <div class="navbar-nav">
-      <a class="nav-item nav-link text-warning" href="index.php">HOME</a>
-      <a class="nav-item nav-link text-warning" href="about.php">ABOUT</a>
-      <a class="nav-item nav-link text-warning" href="cost.php">INSTALLATION COST</a>
-      <a class="nav-item nav-link text-warning" tabindex="-1" href="payment.php">PAYMENT METHOD</a>
-    <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle text-warning" data-toggle="dropdown">AIR</a>
-                    <div class="dropdown-menu">
-                        <a href="product.php?id=1" class="dropdown-item text-warning"><img src="img/1.png" class="response">WALL TYPE</a>
-                        <a href="product.php?id=2" class="dropdown-item text-warning"><img src="img/2.png" class="response">FLOOR TYPE</a>
-                        <a href="product.php?id=3" class="dropdown-item text-warning"><img src="img/3.png" class="response">PACKAGE TYPE</a>
-                    </div>
-                </div>
-   </div>
-   <form class="form-inline ml-auto" action="search.php" method="post">
-                <div class="input-group">
-     <input type="text" class="form-control mr-sm-2" placeholder="Search" name="searchhh">
-                 <button type="submit" class="btn btn-outline-warning" style="margin-left: 5px">Search</button>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link text-warning" href="index.php">HOME</a>
+        <a class="nav-item nav-link text-warning" href="about.php">ABOUT</a>
+        <a class="nav-item nav-link text-warning" href="cost.php">INSTALLATION COST</a>
+        <a class="nav-item nav-link text-warning" tabindex="-1" href="payment.php">PAYMENT METHOD</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle text-warning" data-toggle="dropdown">AIR</a>
+          <div class="dropdown-menu">
+            <a href="product.php?id=1" class="dropdown-item text-warning"><img src="bg/bg_04.png" class="response">WALL
+              TYPE</a>
+            <a href="product.php?id=2" class="dropdown-item text-warning"><img src="bg/bg_05.png" class="response">FLOOR
+              TYPE</a>
+            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png" class="response">PACKAGE
+              TYPE</a>
+          </div>
+        </div>
+      </div>
+      <form class="form-inline ml-auto" action="search.php" method="post">
+        <div class="input-group">
+          <input type="text" class="form-control mr-sm-2" placeholder="Search" name="searchhh">
+          <button type="submit" class="btn btn-outline-warning" style="margin-left: 5px">Search</button>
+        </div>
+      </form>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link text-dark btn btn-warning mr-sm-2" style="margin-left: 10px; padding: 6px"
+          href="login.php">LOGIN</a>
+      </div>
     </div>
-            </form>
-   <div class="navbar-nav">
-    <a class="nav-item nav-link text-dark btn btn-warning" style="margin-left: 10px; padding: 6px" href="login.php">LOGIN</a>
-   </div>
-    </div>  
- </nav>
- 
- <div class="container">
-  <br>
-<br>
-<br>
-<br>
-
-  <div class="row">
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-     </ol>
-     <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/bg2.png" alt="First slide">
+  </nav>
+  <div class="container">
+    <br><br><br><br>
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="bg/bg_01.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="bg/bg_02.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="bg/bg_03.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/bg3.png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/bg4.png" alt="Third slide">
-    </div>
-     </div>
-     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-     </a>
-     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-     </a>
-   </div>            
-  </div>
-  <br>
+    <br>
 
   <div class="row card">
    <div class="card-header bg-dark text-warning">
     <br>
-    <strong><h5>AIR HUB TECHNONOGY SOLUTION COMPANY LIMITED</h5></strong>
+    <strong><h5>INSTALLATION COST</h5></strong>
    </div>
-     <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">    
-      <strong><h6>ADDRESS :</h6></strong> <br>
-    <a >111/12 Donlee Village, Samo Subdistrick, Prangku Districk, Sisaket Province, Thailand 33170</a><br><br>
-    <a>Tel : 0842398684, 0839849056 (24 Hr.)</a><br><br>
-    <a>Email : Asarawoot114@gmail.com</a><br><br>
-    <a>FOLLOW US :</a><br><br>
+     <div class="card-header bg-dark text-white" style="letter-spacing: 2px;"> 
+    <a >ชำระเป็นเงินสด หรือ รูดบัตรเครดิตที่บ้านท่านลูกค้าได้เลย *สำหรับต่างจังหวัดท่านสามารถ สั่งจองสินค้าและโอนค่าสินค้า ค่าบริการต่างๆ ผ่านธนาคาร ดังนี้ : </a><br><br>
     <div class="row">
-     <!-- facebook    -->
-     <div class="col-md-1" style="padding: 0">
-      <img src="img/contact_24.png" class="response" style="padding-left: 60px; padding-top: 7px">
+     <div class="col-md-6" >
+      <img src="bg/bg_pay1.png" class="response" >
      </div>
-     <div class="col-md-3">
-      <a href="https://web.facebook.com/profile.php?id=100006211907417" target="_blank"><strong>AIR HUB TECHNONOGY</strong></a><br>
-      <a>on Facebook</a>
+     <div class="col-md-6" >
+      <img src="bg/bg_pay2.png" class="response" >
      </div>
-     <!-- line    -->
-     <div class="col-md-1" style="padding: 0">
-      <img src="img/contact_32.png" class="response" style="padding-left: 60px; padding-top: 7px">
+     
+    </div>
+    <br>
+
+    <div class="row">
+     <div class="col-md-6" >
+      <img src="bg/bg_pay3.png" class="response" >
      </div>
-     <div class="col-md-7">
-      <a href="" target="_blank"><strong>ID : @0984201968poop</strong></a><br>
-      <a>on Line</a>
+     <div class="col-md-6" >
+      <img src="bg/bg_pay4.png" class="response" >
      </div>
-    </div><br>
-    <a><strong>SERVICES :</strong></a><br><br>
+     
+    </div>
+    <br>
+    
+    <a ><li>ท่านสามารถส่งรายละเอียดการโอนเงินผ่านกล่องรับข้อความด้านล่าง เพื่อใช้บันทึกเป็นหลักฐานการโอนเงินของท่านได้ หรือที่ ID line 0984202968poop
+กรุณาใส่ วันที่,เวลา,ธนาคารที่ท่านใช้โอน และ เลือก ติดต่อ-ฝ่ายการเงิน โทร. 084 238 8684 แฟกซ์: 02 949-9884</li></a><br>
+    
+<!--    <a><strong>SERVICES :</strong></a><br><br>-->
     <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
     <br><br><br><br>
-    <br><br>
+    
    </div>
 
   </div>
@@ -151,5 +149,10 @@
             </div>
         </div>
  
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.js"></script>
+ <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
