@@ -6,31 +6,49 @@
  $row = mysql_fetch_assoc($query);
 ?>
 <!doctype html>
-<html lang="en"><head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <meta http-equiv="X-UA0Compatible" content="ie=edge">
- <link rel="stylesheet" href="css/bootstrap.css">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- 
- <title>AIR_SHOP</title>
- 
- <style type="text/css">
- a:link { color: #fff; text-decoration: none}
- a:visited { color: #fff; text-decoration: none}
- a:hover { color: #FFD600; text-decoration: underline}
- a:active { color: #fff; text-decoration: none}
- </style>
- 
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA0Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>AIR_SHOP</title>
+
+  <style type="text/css">
+    a:link {
+      color: #fff;
+      text-decoration: none
+    }
+
+    a:visited {
+      color: #fff;
+      text-decoration: none
+    }
+
+    a:hover {
+      color: #FFD600;
+      text-decoration: underline
+    }
+
+    a:active {
+      color: #fff;
+      text-decoration: none
+    }
+  </style>
+
 </head>
 <style>
- 
+
 </style>
+
 <body>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     <a class="navbar-brand" href="index.php">
       <img src="bg/bg1.png" width="50px">
     </a>
@@ -50,7 +68,8 @@
               TYPE</a>
             <a href="product.php?id=2" class="dropdown-item text-warning"><img src="bg/bg_05.png" class="response">FLOOR
               TYPE</a>
-            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png" class="response">PACKAGE
+            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png"
+                class="response">PACKAGE
               TYPE</a>
           </div>
         </div>
@@ -99,60 +118,72 @@
     </div>
     <br>
 
-  <div class="row card">
-   <div class="card-header bg-dark text-warning">
-    <br>
-    <strong><h5>INSTALLATION COST</h5></strong>
-   </div>
-     <div class="card-header bg-dark text-white" style="letter-spacing: 2px;"> 
-    <a >ชำระเป็นเงินสด หรือ รูดบัตรเครดิตที่บ้านท่านลูกค้าได้เลย *สำหรับต่างจังหวัดท่านสามารถ สั่งจองสินค้าและโอนค่าสินค้า ค่าบริการต่างๆ ผ่านธนาคาร ดังนี้ : </a><br><br>
-    <div class="row">
-     <div class="col-md-6" >
-      <img src="bg/bg_pay1.png" class="response" >
-     </div>
-     <div class="col-md-6" >
-      <img src="bg/bg_pay2.png" class="response" >
-     </div>
-     
-    </div>
-    <br>
+    <div class="row card">
+      <div class="card-header bg-dark text-warning">
+        <br>
+        <strong>
+          <h5>INSTALLATION COST</h5>
+        </strong>
+      </div>
+      <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">
+        <a>ชำระเป็นเงินสด หรือ รูดบัตรเครดิตที่บ้านท่านลูกค้าได้เลย *สำหรับต่างจังหวัดท่านสามารถ
+          สั่งจองสินค้าและโอนค่าสินค้า ค่าบริการต่างๆ ผ่านธนาคาร ดังนี้ : </a><br><br>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="bg/bg_pay1.png" class="response">
+          </div>
+          <div class="col-md-6">
+            <img src="bg/bg_pay2.png" class="response">
+          </div>
 
-    <div class="row">
-     <div class="col-md-6" >
-      <img src="bg/bg_pay3.png" class="response" >
-     </div>
-     <div class="col-md-6" >
-      <img src="bg/bg_pay4.png" class="response" >
-     </div>
-     
+        </div>
+        <br>
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="bg/bg_pay3.png" class="response">
+          </div>
+          <div class="col-md-6">
+            <img src="bg/bg_pay4.png" class="response">
+          </div>
+
+        </div>
+        <br>
+
+        <a>
+          <li>ท่านสามารถส่งรายละเอียดการโอนเงินผ่านกล่องรับข้อความด้านล่าง เพื่อใช้บันทึกเป็นหลักฐานการโอนเงินของท่านได้
+            หรือที่ ID line 0984202968poop
+            กรุณาใส่ วันที่,เวลา,ธนาคารที่ท่านใช้โอน และ เลือก ติดต่อ-ฝ่ายการเงิน โทร. 084 238 8684 แฟกซ์: 02 949-9884
+          </li>
+        </a><br>
+
+        <!--    <a><strong>SERVICES :</strong></a><br><br>-->
+        <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a
+          href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a
+          href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a
+          href="#">บริการซ่อมแอร์</a>
+        <br><br><br><br>
+
+      </div>
+
     </div>
-    <br>
-    
-    <a ><li>ท่านสามารถส่งรายละเอียดการโอนเงินผ่านกล่องรับข้อความด้านล่าง เพื่อใช้บันทึกเป็นหลักฐานการโอนเงินของท่านได้ หรือที่ ID line 0984202968poop
-กรุณาใส่ วันที่,เวลา,ธนาคารที่ท่านใช้โอน และ เลือก ติดต่อ-ฝ่ายการเงิน โทร. 084 238 8684 แฟกซ์: 02 949-9884</li></a><br>
-    
-<!--    <a><strong>SERVICES :</strong></a><br><br>-->
-    <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
-    <br><br><br><br>
-    
-   </div>
+
+
 
   </div>
-  
-  
-  
- </div>
- 
- <div class="row" style="background: grey; font-size: 15px; color: white; padding: 15px; text-align: center;">
-            <div class="col-md-12">
-                <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Asarawoot Santhong</p>
-            </div>
-        </div>
- 
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- <script src="js/bootstrap.js"></script>
- <script src="js/bootstrap.min.js"></script>
+
+  <div class="row" style="background: grey; font-size: 15px; color: white; padding: 15px; text-align: center;">
+    <div class="col-md-12">
+      <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Asarawoot Santhong
+      </p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

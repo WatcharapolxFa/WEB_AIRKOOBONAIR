@@ -42,7 +42,8 @@ require"connect.php";
               TYPE</a>
             <a href="product.php?id=2" class="dropdown-item text-warning"><img src="bg/bg_05.png" class="response">FLOOR
               TYPE</a>
-            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png" class="response">PACKAGE
+            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png"
+                class="response">PACKAGE
               TYPE</a>
           </div>
         </div>

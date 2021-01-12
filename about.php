@@ -6,35 +6,53 @@
  $row = mysql_fetch_assoc($query);
 ?>
 <!doctype html>
-<html lang="en"><head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <meta http-equiv="X-UA0Compatible" content="ie=edge">
- <link rel="stylesheet" href="css/bootstrap.css">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- <script src="js/bootstrap.js"></script>
- <script src="js/bootstrap.min.js"></script>
- <title>AIR_SHOP</title>
- 
- <style type="text/css">
- a:link { color: #fff; text-decoration: none}
- a:visited { color: #fff; text-decoration: none}
- a:hover { color: #FFD600; text-decoration: underline}
- a:active { color: #fff; text-decoration: none}
- </style>
- 
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA0Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>AIR_SHOP</title>
+
+  <style type="text/css">
+    a:link {
+      color: #fff;
+      text-decoration: none
+    }
+
+    a:visited {
+      color: #fff;
+      text-decoration: none
+    }
+
+    a:hover {
+      color: #FFD600;
+      text-decoration: underline
+    }
+
+    a:active {
+      color: #fff;
+      text-decoration: none
+    }
+  </style>
+
 </head>
 <style>
- 
+
 </style>
+
 <body>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     <a class="navbar-brand" href="index.php">
       <img src="bg/bg1.png" width="50px">
     </a>
@@ -54,7 +72,8 @@
               TYPE</a>
             <a href="product.php?id=2" class="dropdown-item text-warning"><img src="bg/bg_05.png" class="response">FLOOR
               TYPE</a>
-            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png" class="response">PACKAGE
+            <a href="product.php?id=3" class="dropdown-item text-warning"><img src="bg/bg_06.png"
+                class="response">PACKAGE
               TYPE</a>
           </div>
         </div>
@@ -102,52 +121,62 @@
       </div>
     </div>
     <br>
-  <div class="row card">
-   <div class="card-header bg-dark text-warning">
-    <br>
-    <strong><h5>AIR HUB TECHNONOGY SOLUTION COMPANY LIMITED</h5></strong>
-   </div>
-     <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">    
-      <strong><h6>ADDRESS :</h6></strong> <br>
-    <a >111/12 Donlee Village, Samo Subdistrick, Prangku Districk, Sisaket Province, Thailand 33170</a><br><br>
-    <a>Tel : 0842398684, 0839849056 (24 Hr.)</a><br><br>
-    <a>Email : Asarawoot114@gmail.com</a><br><br>
-    <a>FOLLOW US :</a><br><br>
-    <div class="row">
-     <!-- facebook    -->
-     <div class="col-md-1" style="padding: 0">
-      <img src="bg/contactFace.png" class="response" style="padding-left: 60px; padding-top: 7px">
-     </div>
-     <div class="col-md-3">
-      <a href="https://web.facebook.com/profile.php?id=100006211907417" target="_blank"><strong>AIR HUB TECHNONOGY</strong></a><br>
-      <a>on Facebook</a>
-     </div>
-     <!-- line    -->
-     <div class="col-md-1" style="padding: 0">
-      <img src="bg/contactLine.png" class="response" style="padding-left: 60px; padding-top: 7px">
-     </div>
-     <div class="col-md-7">
-      <a href="" target="_blank"><strong>ID : @0984201968poop</strong></a><br>
-      <a>on Line</a>
-     </div>
-    </div><br>
-    <a><strong>SERVICES :</strong></a><br><br>
-    <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
-    <br><br><br><br>
-    <br><br>
-   </div>
+    <div class="row card">
+      <div class="card-header bg-dark text-warning">
+        <br>
+        <strong>
+          <h5>AIR HUB TECHNONOGY SOLUTION COMPANY LIMITED</h5>
+        </strong>
+      </div>
+      <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">
+        <strong>
+          <h6>ADDRESS :</h6>
+        </strong> <br>
+        <a>111/12 Donlee Village, Samo Subdistrick, Prangku Districk, Sisaket Province, Thailand 33170</a><br><br>
+        <a>Tel : 0842398684, 0839849056 (24 Hr.)</a><br><br>
+        <a>Email : Asarawoot114@gmail.com</a><br><br>
+        <a>FOLLOW US :</a><br><br>
+        <div class="row">
+          <!-- facebook    -->
+          <div class="col-md-1" style="padding: 0">
+            <img src="bg/contactFace.png" class="response" style="padding-left: 60px; padding-top: 7px">
+          </div>
+          <div class="col-md-3">
+            <a href="https://web.facebook.com/profile.php?id=100006211907417" target="_blank"><strong>AIR HUB
+                TECHNONOGY</strong></a><br>
+            <a>on Facebook</a>
+          </div>
+          <!-- line    -->
+          <div class="col-md-1" style="padding: 0">
+            <img src="bg/contactLine.png" class="response" style="padding-left: 60px; padding-top: 7px">
+          </div>
+          <div class="col-md-7">
+            <a href="" target="_blank"><strong>ID : @0984201968poop</strong></a><br>
+            <a>on Line</a>
+          </div>
+        </div><br>
+        <a><strong>SERVICES :</strong></a><br><br>
+        <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a
+          href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a
+          href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a
+          href="#">บริการซ่อมแอร์</a>
+        <br><br><br><br>
+        <br><br>
+      </div>
+
+    </div>
+
+
 
   </div>
-  
-  
-  
- </div>
- 
- <div class="row" style="background: grey; font-size: 15px; color: white; padding: 15px; text-align: center;">
-            <div class="col-md-12">
-                <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Asarawoot Santhong</p>
-            </div>
-        </div>
- 
+
+  <div class="row" style="background: grey; font-size: 15px; color: white; padding: 15px; text-align: center;">
+    <div class="col-md-12">
+      <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Asarawoot Santhong
+      </p>
+    </div>
+  </div>
+
 </body>
+
 </html>
