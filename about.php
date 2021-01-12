@@ -125,7 +125,7 @@
       <div class="card-header bg-dark text-warning">
         <br>
         <strong>
-          <h5>AIR HUB TECHNONOGY SOLUTION COMPANY LIMITED</h5>
+          <h5> KOOBINAIR.COM  TECHNONOGY SOLUTION COMPANY LIMITED</h5>
         </strong>
       </div>
       <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">

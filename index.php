@@ -95,7 +95,7 @@ require"connect.php";
 
     <div class="card">
       <div class="card-header bg-dark text-warning">
-        <strong>--KOOBINAIR.COM --</strong>
+        <strong>-- KOOBINAIR.COM --</strong>
       </div>
       <div class="card-header" style="letter-spacing: 2px;">
         <ul><strong>

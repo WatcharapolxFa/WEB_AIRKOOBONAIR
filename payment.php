@@ -174,7 +174,7 @@
 
   <div class="row" style="background: grey; font-size: 15px; color: white; padding: 15px; text-align: center;">
     <div class="col-md-12">
-      <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Asarawoot Santhong
+      <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by :Watcharapol Yotadee
       </p>
     </div>
   </div>
