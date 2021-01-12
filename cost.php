@@ -119,55 +119,71 @@
     <br>
 
     <div class="row card">
-      <div class="card-header bg-dark text-warning">
-        <br>
-        <strong>
-          <h5>ค่าติดตั้ง แอร์ "ติดผนัง" แบบ มาตรฐาน (Wall type air)</h5>
-        </strong>
-      </div>
-      <div class="card-header bg-dark text-white" style="letter-spacing: 2px;">
-        <table class="table table-hover ">
-          <thead class="bg-warning text-dark">
-            <th style="width : 40%">ขนาด BTU ที่ติดตั้ง</th>
-            <th style="width : 15%">ราคา</th>
-            <th style="width : 15%">ท่อน้ำยา</th>
-            <th style="width : 15%">สายไฟ</th>
-            <th style="width : 15%">การเดินท่อ</th>
-          </thead>
-          <tbody class="bg-white text-dark">
-                        <td style="width:40%">9,000-13,000</td>
+			<div class="card-header bg-dark text-warning" style="border-bottom:1px solid #fff">
+				<br>
+				<strong><h5>ค่าติดตั้งแอร์ "ติดผนัง" แบบมาตรฐาน (Wall type air)</h5></strong>
+			</div>
+		  	<div class="card-header bg-dark text-white" style="letter-spacing: 2px;">	
+				
+				<table class="table table-hover ">
+                    <thead class="bg-warning text-dark">
+                        <th style="width:40%; text-align:center">ขนาด BTU ที่ติดตั้ง</th>
+                        <th style="width:15%">ราคา</th>
+                        <th style="width:15%">ท่อน้ำยา</th>
+                        <th style="width:15%">สายไฟ</th>
+                        <th style="width:15%">การเดินท่อ</th>
+                    </thead>
+                    <tbody class="bg-white text-dark">
+                        <td style="width:40%; text-align:center">9,000-13,000</td>
                         <td style="width:15%">2,500 บาท</td>
                         <td style="width:15%">4 เมตร</td>
                         <td style="width:15%">10เมตร</td>
                         <td style="width:15%">ฟรีรางครอบ</td>
                     </tbody>
                     <tbody class="bg-white text-dark">
-                        <td style="width:40%">18,000</td>
+                        <td style="width:40%; text-align:center">18,000</td>
                         <td style="width:15%">3,000 บาท</td>
                         <td style="width:15%">4 เมตร</td>
                         <td style="width:15%">10เมตร</td>
                         <td style="width:15%">ฟรีรางครอบ</td>
                     </tbody>
+                    <tbody class="bg-white text-dark">
+                        <td style="width:40%; text-align:center">25,000</td>
+                        <td style="width:15%">3,500 บาท</td>
+                        <td style="width:15%">4 เมตร</td>
+                        <td style="width:15%">10เมตร</td>
+                        <td style="width:15%">ฟรีรางครอบ</td>
+                    </tbody>
+                    <tbody class="bg-white text-dark">
+                        <td style="width:40%; text-align:center">30,001-36,000</td>
+                        <td style="width:15%">5,500 บาท</td>
+                        <td style="width:15%">4 เมตร</td>
+                        <td style="width:15%">10เมตร</td>
+                        <td style="width:15%">ฟรีรางครอบ</td>
+                    </tbody>
+                    <tbody class="bg-white text-dark">
+                        <td style="width:40%; text-align:center">38,001-48,000</td>
+                        <td style="width:15%">6,500 บาท</td>
+                        <td style="width:15%">4 เมตร</td>
+                        <td style="width:15%">10เมตร</td>
+                        <td style="width:15%">ฟรีรางครอบ</td>
+                    </tbody>
+                </table>
+				
+			</div>
+		</div>
+		<br>
 
-          </thead>
-        </table>
-  
-
-        <a>
-          <li>ค่าบริการ ถอดแอร์ 300 - 800 บาท ล้างใหญ่ 500 บาท สอบถามรายละเอียดเพิ่มเติมได้ทุกวันเวลาทำการ
-            อัตราค่าบริการอาจเปลี่ยนแปลงไปตามพื้นที่บริการ กรุณาสอบถามกับฝ่ายขายที่ท่านติดต่ออยู่ ขอบคุณค่ะ</li>
-        </a><br>
-
-        <!--    <a><strong>SERVICES :</strong></a><br><br>-->
-        <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a
-          href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a
-          href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a
-          href="#">บริการซ่อมแอร์</a>
-        <br><br><br><br>
-
-      </div>
-
-    </div>
+        <div class="row card">
+            <div class="card-header bg-dark text-warning" style="border-bottom:1px solid #fff">
+                <a ><li>ค่าบริการ ถอดแอร์ 300 - 800 บาท ล้างใหญ่ 500 บาท สอบถามรายละเอียดเพิ่มเติมได้ทุกวันเวลาทำการ 
+                อัตราค่าบริการอาจเปลี่ยนแปลงไปตามพื้นที่บริการ กรุณาสอบถามกับฝ่ายขายที่ท่านติดต่ออยู่ ขอบคุณค่ะ</li></a><br>
+				
+<!--				<a><strong>SERVICES :</strong></a><br><br>-->
+				<a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
+				<br><br><br><br>
+            </div>
+        </div>
 
 
 
@@ -175,7 +191,7 @@
 
   <div class="row" style="background: grey; font-size: 15px; color: white; padding: 15px; text-align: center;">
     <div class="col-md-12">
-      <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Asarawoot Santhong
+      <p style="text-align: center; padding-bottom: 5px;"><b>&copy; copyright 2020</b> Website by : Watcharapol Yotadee
       </p>
     </div>
   </div>
