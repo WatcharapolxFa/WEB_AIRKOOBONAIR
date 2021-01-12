@@ -117,75 +117,116 @@
       </div>
     </div>
     <br>
-
     <div class="row card">
-			<div class="card-header bg-dark text-warning" style="border-bottom:1px solid #fff">
-				<br>
-				<strong><h5>ค่าติดตั้งแอร์ "ติดผนัง" แบบมาตรฐาน (Wall type air)</h5></strong>
-			</div>
-		  	<div class="card-header bg-dark text-white" style="letter-spacing: 2px;">	
-				
-				<table class="table table-hover ">
+   <div class="card-header bg-dark text-warning" style="border-bottom:1px solid #fff">
+    <br>
+    <strong><h5>ค่าติดตั้งแอร์ "ติดผนัง" แบบมาตรฐาน (Wall type air)</h5></strong>
+   </div>
+     <div class="card-header bg-dark text-white" style="letter-spacing: 2px; border-bottom:1px solid #fff"> 
+    
+              <table class="table table-hover ">
                     <thead class="bg-warning text-dark">
-                        <th style="width:40%; text-align:center">ขนาด BTU ที่ติดตั้ง</th>
-                        <th style="width:15%">ราคา</th>
-                        <th style="width:15%">ท่อน้ำยา</th>
-                        <th style="width:15%">สายไฟ</th>
-                        <th style="width:15%">การเดินท่อ</th>
+                        <th style="text-align:center">ขนาด BTU ที่ติดตั้ง</th>
+                        <th>ราคา</th>
+                        <th>ท่อน้ำยา</th>
+                        <th>สายไฟ</th>
+                        <th>การเดินท่อ</th>
                     </thead>
                     <tbody class="bg-white text-dark">
-                        <td style="width:40%; text-align:center">9,000-13,000</td>
-                        <td style="width:15%">2,500 บาท</td>
-                        <td style="width:15%">4 เมตร</td>
-                        <td style="width:15%">10เมตร</td>
-                        <td style="width:15%">ฟรีรางครอบ</td>
+                        <td style="text-align:center">9,000-13,000</td>
+                        <td>2,500 บาท</td>
+                        <td>4 เมตร</td>
+                        <td>10เมตร</td>
+                        <td>ฟรีรางครอบ</td>
                     </tbody>
                     <tbody class="bg-white text-dark">
-                        <td style="width:40%; text-align:center">18,000</td>
-                        <td style="width:15%">3,000 บาท</td>
-                        <td style="width:15%">4 เมตร</td>
-                        <td style="width:15%">10เมตร</td>
-                        <td style="width:15%">ฟรีรางครอบ</td>
+                        <td style="text-align:center">18,000</td>
+                        <td>3,000 บาท</td>
+                        <td>4 เมตร</td>
+                        <td>10เมตร</td>
+                        <td>ฟรีรางครอบ</td>
                     </tbody>
                     <tbody class="bg-white text-dark">
-                        <td style="width:40%; text-align:center">25,000</td>
-                        <td style="width:15%">3,500 บาท</td>
-                        <td style="width:15%">4 เมตร</td>
-                        <td style="width:15%">10เมตร</td>
-                        <td style="width:15%">ฟรีรางครอบ</td>
+                        <td style="text-align:center">25,000</td>
+                        <td>3,500 บาท</td>
+                        <td>4 เมตร</td>
+                        <td>10เมตร</td>
+                        <td>ฟรีรางครอบ</td>
                     </tbody>
                     <tbody class="bg-white text-dark">
-                        <td style="width:40%; text-align:center">30,001-36,000</td>
-                        <td style="width:15%">5,500 บาท</td>
-                        <td style="width:15%">4 เมตร</td>
-                        <td style="width:15%">10เมตร</td>
-                        <td style="width:15%">ฟรีรางครอบ</td>
+                        <td style="text-align:center">30,001-36,000</td>
+                        <td>5,500 บาท</td>
+                        <td>4 เมตร</td>
+                        <td>10เมตร</td>
+                        <td>ฟรีรางครอบ</td>
                     </tbody>
                     <tbody class="bg-white text-dark">
-                        <td style="width:40%; text-align:center">38,001-48,000</td>
-                        <td style="width:15%">6,500 บาท</td>
-                        <td style="width:15%">4 เมตร</td>
-                        <td style="width:15%">10เมตร</td>
-                        <td style="width:15%">ฟรีรางครอบ</td>
+                        <td style="text-align:center">38,001-48,000</td>
+                        <td>6,500 บาท</td>
+                        <td>4 เมตร</td>
+                        <td>10เมตร</td>
+                        <td>ฟรีรางครอบ</td>
                     </tbody>
                 </table>
-				
-			</div>
-		</div>
-		<br>
+    
+   </div>
 
-        <div class="row card">
             <div class="card-header bg-dark text-warning" style="border-bottom:1px solid #fff">
-                <a ><li>ค่าบริการ ถอดแอร์ 300 - 800 บาท ล้างใหญ่ 500 บาท สอบถามรายละเอียดเพิ่มเติมได้ทุกวันเวลาทำการ 
-                อัตราค่าบริการอาจเปลี่ยนแปลงไปตามพื้นที่บริการ กรุณาสอบถามกับฝ่ายขายที่ท่านติดต่ออยู่ ขอบคุณค่ะ</li></a><br>
-				
-<!--				<a><strong>SERVICES :</strong></a><br><br>-->
-				<a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
-				<br><br><br><br>
+    <br>
+    <strong><h5>ค่าติดตั้ง "ส่วนเกิน" มาตรฐาน แอร์ "ติดผนัง"   อัตราส่วนที่ต้องจ่ายเพิ่มเป็น "เมตร"</h5></strong>
+   </div>
+     <div class="card-header bg-dark text-white" style="letter-spacing: 2px; border-bottom:1px solid #fff"> 
+    
+    <table class="table table-hover">
+                    <thead class="bg-warning text-dark">
+                        <th style="text-align:center">ขนาด BTU ที่ติดตั้ง</th>
+                        <th>ท่อน้ำยา</th>
+                        <th>สายไฟ</th>
+                        <th>รางครอบท่อ</th>
+                        <th>กรีดปูนฝังท่อ</th>
+                    </thead>
+                    <tbody class="bg-white text-dark">
+                        <td style="text-align:center">9,000-13,000</td>
+                        <td>400 บาท</td>
+                        <td>40 บาท</td>
+                        <td>250 บาท</td>
+                        <td>450 บาท</td>
+                    </tbody>
+                    <tbody class="bg-white text-dark">
+                        <td style="text-align:center">18,001-25,000</td>
+                        <td>600 บาท</td>
+                        <td>50 บาท</td>
+                        <td>250 บาท</td>
+                        <td>450 บาท</td>
+                    </tbody>
+                    <tbody class="bg-white text-dark">
+                        <td style="text-align:center">28,001-33,000</td>
+                        <td>700 บาท</td>
+                        <td>50 บาท</td>
+                        <td>250 บาท</td>
+                        <td>450 บาท</td>
+                    </tbody>
+                    <tbody class="bg-white text-dark">
+                        <td style="text-align:center">36,001-60,000</td>
+                        <td>800 บาท</td>
+                        <td>80 บาท</td>
+                        <td>250 บาท</td>
+                        <td>450 บาท</td>
+                    </tbody>
+                </table>
+    
+   
+
+  
+            <a ><li>ท่านสามารถส่งรายละเอียดการโอนเงินผ่านกล่องรับข้อความด้านล่าง เพื่อใช้บันทึกเป็นหลักฐานการโอนเงินของท่านได้ หรือที่ ID line 0984202968poop
+            กรุณาใส่ วันที่,เวลา,ธนาคารที่ท่านใช้โอน และ เลือก ติดต่อ-ฝ่ายการเงิน โทร. 084 238 8684 แฟกซ์: 02 949-9884</li></a><br>
+    
+                <!--<a><strong>SERVICES :</strong></a><br><br>-->
+    <a href="#">ขายแอร์บ้าน</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">แอร์ตั้งพื้น</a> | <a href="#">แอร์ตู้</a> | <a href="#">บริการซ่อมแอร์</a> | <a href="#">แอร์ราคาส่ง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">แอร์ติดผนัง</a> | <a href="#">ขายราคาถูก</a> | <a href="#">บริการซ่อมแอร์</a>
+    <br><br><br><br>
+            
             </div>
         </div>
-
-
 
   </div>
 
